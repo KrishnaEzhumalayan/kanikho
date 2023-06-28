@@ -111,8 +111,8 @@ button{
 p.description{margin-top: 4vw;
 margin-bottom: 10vw;
 font-family: Arial;
-font-size: 1.3vw;
-line-height: 2vw;
+font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+line-height: clamp(1rem, 1.8vw, 1.8rem);
 margin-left: 10vw;
 margin-right: 10vw;
 word-spacing: 0.1vw;}
