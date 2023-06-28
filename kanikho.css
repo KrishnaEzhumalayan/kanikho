@@ -86,12 +86,11 @@ button{
   text-align: center;
   font-size: 150%;
   font-family: Arial;
-  transition: color 1s;
 }
 
 .link{
   color: black;
-  transition: color 1s;
+  transition: color 0.1s;
 }
 
 .link:hover{
