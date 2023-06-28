@@ -8,10 +8,10 @@ font-family: Arial;
 font-size: 40px;
 display: inline-block;}
 
-.logo{width: 8%;
-height: 8%;
+.logo{width: 8vw;
+height: 8vw;
 filter: brightness(98%);
-margin-left: 10%;
+margin-left: 10vw;
 margin-bottom: 0;
 }
 
@@ -19,7 +19,7 @@ margin-bottom: 0;
   vertical-align: middle;
 }
 
-.hom{margin-left: 150px;}
+.hom{margin-left: 10vw;}
 
 ul {list-style-type: none;
   margin: 0;
@@ -33,12 +33,12 @@ li {display: inline-block;}
 li a {display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.4vw 1.6vw;
   text-decoration: none;
   font-family: Arial;
-  font-size: 125%;
-  padding-right: 35px;
-  padding-left: 35px;
+  font-size: 1.3vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
   transition: color, background-color , 0.1s;
 }
   
@@ -58,7 +58,7 @@ position: relative;}
 margin-left: auto;
 margin-right: auto;
 width: 100%;
-height: 400px;
+height: 25vw;
 object-fit: cover;
 object-position: center;
 margin-bottom: 0;
@@ -66,25 +66,27 @@ opacity: 1;
 filter: brightness(85%);}
 
 .first-txt {position: absolute;
-top: 25%;
-margin-left: 10%;
-margin-right: 10%;
+top: 5vw;
+margin-left: 10vw;
+margin-right: 10vw;
 color: white;
-font-size: 350%;
+font-size: 3.5vw;
 font-family: Arial;
 }
     
 
 button{
   background-color: yellow;
-  padding: 10px;
-  border-radius: 15px;
+  padding: 0.7vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 2.5vw;
   border: none;
   position: absolute;
-  top: 250px;
-  margin-left: 45%;
+  top: 15vw;
+  margin-left: 45vw;
   text-align: center;
-  font-size: 150%;
+  font-size: 1.3vw;
   font-family: Arial;
 }
 
@@ -106,21 +108,22 @@ button{
   text-decoration: none;
 }
             
-p.description{margin-top: 4%;
-margin-bottom: 10%;
+p.description{margin-top: 4vw;
+margin-bottom: 10vw;
 font-family: Arial;
-font-size: 115%;
-line-height: 170%;
-margin-left: 10%;
-margin-right: 10%;
-word-spacing: 3px;}
+font-size: 1.3vw;
+line-height: 2vw;
+margin-left: 10vw;
+margin-right: 10vw;
+word-spacing: 0.1vw;}
 
-.supply{font-size: 250%;
+.supply{font-size: 2.5vw;
 text-align: center;
 display: block;
-margin-top: 8%;
-margin-bottom: 4%;
+margin-top: 6vw;
+margin-bottom: 2vw;
 font-family: Arial;}
+
 
 .section{
   display: block;
@@ -148,6 +151,13 @@ font-family: Arial;}
 .first-para{
 width: 700px;
 font-size: 120%;
+}
+
+.copyright{
+  font-family: Arial;
+  font-size: 1.3vw;
+  text-align: center;
+  margin-bottom: 4vw;
 }
               
 
