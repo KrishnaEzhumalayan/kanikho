@@ -33,12 +33,12 @@ li {display: inline-block;}
 li a {display: block;
   color: black;
   text-align: center;
-  padding: 1.4vw 1.6vw;
+  padding: 0.5em 0.5em;
   text-decoration: none;
   font-family: Arial;
-  font-size: 1.3vw;
-  padding-right: 2vw;
-  padding-left: 2vw;
+  font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+  padding-right: clamp(1em, 1.2vw,1.2em);
+  padding-left: clamp(1em, 1.2vw,1.2em);
   transition: color, background-color , 0.1s;
 }
   
