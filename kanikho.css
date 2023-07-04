@@ -1,38 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;  
+}
+
 body{background-color: #FCFBFC;}
 
-h1{background-color: #FDFDFD; 
-color: #171717;  
-margin-left: 10%;
-padding: 0px; 
-font-family: Arial;
-font-size: 40px;
-display: inline-block;}
+.title-logo{
+  border-radius: 5px;
+}
 
-.logo{width: clamp(4.2rem, 7.2vw, 7.2rem);
-height: clamp(4.2rem, 7.2vw, 7.2rem);
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 0%;
+  padding-right: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 8%;
+}
+
+.logo{width: 110px;
+cursor: pointer;
+margin: 20px 0px 30px;
 filter: brightness(98%);
-margin-left: clamp(1rem, 2.4vw, 2.4rem);
 margin-bottom: 0;
 }
 
-.line{display: inline-block;
-  vertical-align: middle;
+.menu-icon{width: 150px;
+  cursor: pointer;
+  display: none;
+  filter: brightness(98%);
 }
 
-.hom{margin-left: clamp(1em,1.5vw,1.5em);}
-
-ul {list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FCFBFC;
+nav{
+text-align: right;
+margin-left: 20%;
 }
-              
-li {display: inline-block;}
-              
-li a {display: block;
-  color: black;
+
+nav ul li {list-style: none;
+  display: inline-block;
+  margin-left: 0px;
   text-align: center;
+}
+
+nav ul li a {display: block;
+  color: black;
   padding: 0.5em 0.5em;
   text-decoration: none;
   font-family: Arial;
@@ -41,20 +61,62 @@ li a {display: block;
   padding-left: clamp(1em, 1.2vw,1.2em);
   transition: color, background-color , 0.1s;
 }
-  
-li a.active {
-    color: #04AA6D;
-}
-  
-li a:hover:not(.active) {
-    background-color: #04AA6D;
-    color: white;
+
+nav ul li a:hover:not(.active) {
+  background-color: #04AA6D;
+  color: white;
 }
 
+nav ul li a.active {
+  color: #04AA6D;
+}
+
+
+@media only screen and (max-width:700px){
+
+  nav ul{
+    width: 100%;
+    background: #FCFBFC;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index:2;
+    text-align: center;
+  }
+
+  nav ul li{
+    display: block; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  nav ul li a{
+    color: black;
+  }
+
+  .menu-icon{
+    display: block;
+    text-align: right;
+  }
+
+  #menuList{
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .cover-photo{
+    margin-top: 0px;
+  }
+
+}
+
+              
+li {display: inline-block;}
+              
 .gfg {margin: 0%;
 position: relative;}
 
-.cover-photo {display: block;
+.cover-photo {display: flex;
 margin-left: auto;
 margin-right: auto;
 width: 100%;
@@ -67,92 +129,29 @@ filter: brightness(85%);}
 
 .first-txt {display: block;
 position: absolute;
-top: 3rem;
+top: clamp(3.5rem, 7vw, 7rem);
 color: white;
 font-size: clamp(1.75rem, 3.5vw, 3.5rem);
 font-family: Arial;
 width: 100%;
 text-align: center;
 }
-    
-
-button{
-  background-color: yellow;
-  padding: 0.7vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  border-radius: 2.5vw;
-  border: none;
-  position: absolute;
-  top: 15vw;
-  margin-left: 45vw;
-  text-align: center;
-  font-size: 1.3vw;
-  font-family: Arial;
-}
-
-.link{
-  color: black;
-  transition: color 0.1s;
-}
-
-.link:hover{
-  color: red;
-}
-
-.link.active {
-  color: red;
-}
-
-
-.link{
-  text-decoration: none;
-}
-            
+          
 p.description{margin-top: 4vw;
 margin-bottom: clamp(3em,6vw,6em);
 font-family: Arial;
 font-size: clamp(0.7rem, 1.2vw, 1.2rem);
 line-height: clamp(1rem, 1.8vw, 1.8rem);
-margin-left: clamp(2rem, 4.8vw, 4.8rem);
-margin-right: clamp(2rem, 4.8vw, 4.8rem);
-word-spacing: 0.2rem;}
+word-spacing: 0.2rem;
+padding-left: 8%;
+padding-right: 8%;}
 
-.supply{font-size: 2.5vw;
+.supply{font-size: clamp(1.3rem, 2.5vw, 2.5rem);
 text-align: center;
 display: block;
 margin-top: 6vw;
 margin-bottom: 2vw;
 font-family: Arial;}
-
-
-.section{
-  display: block;
-  width: 100%;
-}
-
-.sub-section{
-  display: inline-block;
-  width: 30%;
-  height: 100%;
-}
-
-.sub-section2{
-  display: inline-block;
-  width: 700px;
-}
-
-.first-para-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: right;
-}
-
-.first-para{
-width: 700px;
-font-size: 120%;
-}
 
 .copyright{
   font-family: Arial;
@@ -160,4 +159,16 @@ font-size: 120%;
   text-align: center;
   margin-bottom: clamp(2em,3vw,3em);
 }
-             
+              
+
+      
+
+
+
+
+
+            
+
+            
+
+
