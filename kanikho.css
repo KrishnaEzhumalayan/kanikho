@@ -149,6 +149,7 @@ text-align: justify;}
 
 .supply{font-size: clamp(1.3rem, 2.5vw, 2.5rem);
 text-align: center;
+color: red;
 display: block;
 margin-top: 6vw;
 margin-bottom: 2vw;
