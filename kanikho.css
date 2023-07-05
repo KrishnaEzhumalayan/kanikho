@@ -144,8 +144,8 @@ font-family: Arial;
 font-size: clamp(0.7rem, 1.2vw, 1.2rem);
 line-height: clamp(1rem, 1.8vw, 1.8rem);
 word-spacing: 0.2rem;
-padding-left: 8%;
-padding-right: 8%;
+padding-left: 0%;
+padding-right: 0%;
 text-align: justify;
 color: #04AA6D;}
           
