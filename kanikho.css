@@ -42,7 +42,7 @@ margin-bottom: 0;
 
 nav{
 text-align: right;
-margin-left: 15%;
+margin-left: 20%;
 }
 
 nav ul li {list-style: none;
@@ -97,7 +97,7 @@ width: 100%;
 text-align: center;
 }
           
-p.description{margin-top: 4vw;
+p.description{margin-top: 0%;
 margin-bottom: clamp(3em,6vw,6em);
 font-family: Arial;
 font-size: clamp(0.7rem, 1.2vw, 1.2rem);
@@ -143,6 +143,7 @@ button{
   padding-bottom: 8px;
   border-radius: 30px;
   border: none;
+  margin-bottom: 4vw;
 }
 
 button:hover{
@@ -195,7 +196,7 @@ input#msg{
 }
 
 .content2{
-  margin-top: 4vw;
+  margin-top: 4%;
   width: 42%;
   float: right;
   padding-right: 8%;
@@ -228,11 +229,13 @@ p.description2{
   margin-right: 0% ;
   margin-left: 0%;
   margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .content{
   padding-left: 8%;
   padding-right: 8%;
+  margin-top: 4%;
 }
 
 .line1{
@@ -310,7 +313,7 @@ p.description2{
   }
 
   .content2{
-    margin-top: 4vw;
+    margin-top: 0%;
     width: 80%;
     display: block;
     padding-right: 8%;
@@ -377,19 +380,6 @@ p.description2{
   padding-top: 0%;
   padding-bottom: 0%;
 }
-
-            
-
-
-       
-
-      
-
-
-
-
-
-            
 
             
 
