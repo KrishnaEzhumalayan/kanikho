@@ -104,7 +104,8 @@ font-size: clamp(0.7rem, 1.2vw, 1.2rem);
 line-height: clamp(1rem, 1.8vw, 1.8rem);
 word-spacing: 0.2rem;
 padding-left: 0%;
-padding-right: 0%;}
+padding-right: 0%;
+text-align: justify;}
 
 .supply{font-size: clamp(1.3rem, 2.5vw, 2.5rem);
 text-align: center;
